@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            margin-right: 10px;
+        }
+
+        header button {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        header button:hover {
+            background-color: #003f7f;
+        }
+
+        nav {
+            margin: 20px;
+        }
+
+        nav li {
+            list-style-type: none;
+            margin: 5px 0;
+        }
+
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .container h1, .container h2, .container p {
+            margin-bottom: 20px;
+        }
+
+        .photo-frame {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .photo-frame img {
+            max-width: 100%; /* Maksimum lebar gambar sesuai dengan lebar parent */
+            max-height: 100px; /* Maksimum tinggi gambar */
+            object-fit: cover; /* Menyesuaikan gambar ke dalam area yang ditentukan tanpa merubah aspek rasio */
+            border: 2px solid #007bff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="Screenshot (15).png" alt="Logo Senam Class" height="100px">
+            X.6 SMANCO TAPEL 2023/2024
+        </h1>
+    </header>
+    <hr>
+    <nav>
+        <h4>Halaman Web</h4>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Struktur.html">Struktur</a></li>
+        <li><a href="Siswa.html">Nama Siswa/Siswi</a></li>
+        <li><a href="Jadwal.html">Jadwal Pelajaran</a></li>
+    </nav>
+    <hr>
+    <div class="container">
+        <h1>Beranda</h1>
+        <h2>Selamat Datang di Senam Class (X.6) SMANCO TAPEL 2023/2024</h2>
+        <p>Ini adalah website SENAM CLASS yang berisi informasi mengenai kelas X.6. Anda dapat mencari informasi,
+            seperti Struktur Kelas, Nama Siswa/Siswi, Jadwal Pelajaran. Semoga website ini dapat bermanfaat bagi kalian
+            dan karena website ini masih dalam proses pengembangan jadi harap dimaklumi jika ada yang kurang. Terima Kasih.
+        </p>
+
+        <h2>Foto-foto</h2>
+        <div class="photo-frame">
+            <img src="tensix.jpg" alt="Foto 1">
+            <img src="tensix1.jpg" alt="Foto 2">
+            <img src="tensix2.jpg" alt="Foto 3">
+            <img src="tensix3.jpg" alt="Foto 4">
+            <img src="tensix8.jpg" alt="Foto 5">
+            <img src="tensix4.jpg" alt="Foto 6">
+            <img src="tensix6.jpg" alt="Foto 7">
+            <img src="tensix7.jpg" alt="Foto 8">
+        </div>
+    </div>
+
+</body>
+</html>

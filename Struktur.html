@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            margin-right: 10px;
+        }
+
+        header button {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        header button:hover {
+            background-color: #003f7f;
+        }
+
+        nav {
+            margin: 20px;
+        }
+
+        nav li {
+            list-style-type: none;
+            margin: 5px 0;
+        }
+
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .container h1, .container h2, .container p {
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        label, input, textarea {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="button"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="Screenshot (15).png" alt="Logo Senam Class" height="100px"> X.6 SMANCO TAPEL 2023/2024</h1>
+        <button>Contact</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Beranda.html">Beranda</a></li>
+            <li><a href="Siswa.html">Nama Siswa/Siswi</a></li>
+            <li><a href="Jadwal.html">Jadwal Pelajaran</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <div class="container">
+        <h1>Struktur</h1>
+        <h3>MAINTENANCE</h3>
+
+        <h2>Organisasi Kelas X.6</h2>
+        <ul>
+            <li><strong>Wali Kelas:</strong> <span id="wali-kelas">DIDIK SUGIARTO, S.SOS</span></li>
+            <li><strong>Ketua Kelas:</strong> <span id="ketua-kelas">MUHAMMAD NURIL FITRAH</span></li>
+            <li><strong>Sekretaris 1:</strong> <span id="sekretaris1">RESVITA DEWI SARNIAWATY</span></li>
+            <li><strong>Sekretaris 2:</strong> <span id="sekretaris2">NAJIHA FIQROTUL ULYA</span></li>
+            <li><strong>Bendahara 1:</strong> <span id="bendahara1">SYAFIRA FITRIANA</span></li>
+            <li><strong>Bendahara 2:</strong> <span id="bendahara2">TRIKA CELSIA DEWI</span></li>
+        </ul>
+    </div>
+</body>
+</html>
